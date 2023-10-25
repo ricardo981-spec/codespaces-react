@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          Ricardo C.A de Lima <span className="heart">♥️</span> React
+          Ricardo C.A de Lima <span className="heart">♥️</span> Hello World
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
