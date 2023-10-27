@@ -1,6 +1,6 @@
 import './App.css';
-import imagem1 from "/workspaces/codespaces-react/src/imagem/imagem1.png"
-import imagem2 from "/workspaces/codespaces-react/src/imagem/imagem2.jpg"
+import imagem1 from "/workspaces/codespaces-react/src/Imagem/imagem1.png"
+import imagem2 from "/workspaces/codespaces-react/src/Imagem/imagem2.jpg"
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <div class="imagem1">
         <img src={imagem1}/>
-        <img src={imagem2} width="300" height="300"/>
+        <img src={imagem2}/>
         </div>
         <div className='titulo'>
        <p>Manutenção de Computadores e Celulares</p>

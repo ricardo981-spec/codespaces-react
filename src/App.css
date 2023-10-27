@@ -22,7 +22,8 @@ display: flex;
 }
 
 .lista{
-  color:white
+  color:white;
+  display: flex;
 
 }
 
