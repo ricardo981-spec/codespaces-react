@@ -1,26 +1,29 @@
 import './App.css';
+import imagem1 from "/workspaces/codespaces-react/src/imagem/imagem1.png"
+import imagem2 from "/workspaces/codespaces-react/src/imagem/imagem2.jpg"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          Ricardo C.A de Lima <span className="heart">♥️</span> Hello World
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <div class="imagem1">
+        <img src={imagem1}/>
+        </div>
+        <div className='titulo'>
+       <p>Manutenção de Computadores e Celulares</p>
+       </div>
+       <div class="lista">
+          <ul>
+            <li>Manuteção de Computadores</li>
+            <li>Limpeza</li>
+            <li>Compra e Trocas de Peças</li>
+            <li>Manuteção de Celulares
+            </li>
+          </ul>
+          </div>
+          <div className='imagem2'>
+          <img src={imagem2}/>
+          </div>
       </header>
     </div>
   );

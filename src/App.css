@@ -8,24 +8,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #898c91;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+ 
+.imagem1 {
+display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.lista{
+  color:white
 }
 
-.heart {
-  color: #ff0000;
+.titulo{
+
 }
 
-.small {
-  font-size: 0.75rem;
+.imagem2{
+  
 }
