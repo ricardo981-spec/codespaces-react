@@ -19,6 +19,7 @@
  
 .imagem1 {
 display: flex;
+
 }
 
 .lista{
@@ -26,9 +27,9 @@ display: flex;
 }
 
 .titulo{
-
+color: rgb(0, 0, 0);
 }
 
 .imagem2{
-  
+display: flex;
 }

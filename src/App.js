@@ -22,7 +22,7 @@ function App() {
           </ul>
           </div>
           <div className='imagem2'>
-          <img src={imagem2}/>
+          <img src={imagem2} width="300" height="300"/>
           </div>
       </header>
     </div>
