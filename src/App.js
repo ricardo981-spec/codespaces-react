@@ -4,10 +4,11 @@ import imagem2 from "/workspaces/codespaces-react/src/Imagem/imagem2.jpg"
 
 function App() {
   return (
-    <div className="App">
       <header className="App-header">
         <div class="imagem1">
         <img src={imagem1}/>
+        </div>
+        <div class="imagem2">
         <img src={imagem2}/>
         </div>
         <div className='titulo'>
@@ -25,7 +26,6 @@ function App() {
           <div className='imagem2'>
           </div>
       </header>
-    </div>
   );
 }
 
