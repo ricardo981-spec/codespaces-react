@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <div class="imagem1">
         <img src={imagem1}/>
+        <img src={imagem2} width="300" height="300"/>
         </div>
         <div className='titulo'>
        <p>Manutenção de Computadores e Celulares</p>
@@ -22,7 +23,6 @@ function App() {
           </ul>
           </div>
           <div className='imagem2'>
-          <img src={imagem2} width="300" height="300"/>
           </div>
       </header>
     </div>
