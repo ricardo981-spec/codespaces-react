@@ -1,6 +1,6 @@
 import "./estilo.css"
-const lista = ["home", "cursos", "turmas"]
-
+import styled from "styled-components"
+const lista = ["Logo", "Login", "Imagem3"]
 function Menu(){
 
     return(

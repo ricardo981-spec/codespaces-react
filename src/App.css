@@ -7,21 +7,21 @@
   font-size: calc(10px + 2vmin);
 }
  
-.imagem1 {
+.imagens {
 display: flex;
-width: 20%;
-height: 20%;
+width: 20vmin;
+height: 20vmin;
 
 }
 
+.titulo{
+  color: rgb(0, 0, 0);
+  display: center;
+  text-align: center;
+  }
+  
 .lista{
   color:white;
   display: center;
   text-align: center;
-}
-
-.titulo{
-color: rgb(0, 0, 0);
-display: center;
-text-align: center;
 }
