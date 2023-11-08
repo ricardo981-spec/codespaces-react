@@ -25,6 +25,8 @@ function App() {
           </div>
           <div className='imagem2'>
           </div>
+
+          
       </header>
   );
 }
