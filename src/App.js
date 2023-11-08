@@ -6,7 +6,7 @@ import Logo2 from "/workspaces/codespaces-react/src/Imagem/Logo2.png"
 function App() {
   return (
     <header className="App-header">
-      <div class="imagens">
+      <div class="Logo">
         <img src={Logo}/>
         <img src={Login}/>
         <img src={Logo2}/>
