@@ -1,4 +1,3 @@
-
 import styled from "styled-components"
 const lista = ["Manuntenção de Computadores", "Compra e Venda de Peças", "Conserto de Celulares"]
 

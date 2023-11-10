@@ -5,7 +5,7 @@ const AppStyled = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-color:grey;
+  background-color: gray;
 `
 
 function App() {
