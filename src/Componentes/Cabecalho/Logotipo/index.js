@@ -12,7 +12,7 @@ function Logotipo() {
         <LogotipoStyle>
             <img src={Logo} alt=""/>
             <h1>
-            Consertos Computadores e Celulares
+            Manunteção Eletronica
             </h1>
         </LogotipoStyle>
     );

@@ -16,8 +16,8 @@ function Cabecalho() {
     return (
         <CabecalhoStyled>
             <Logotipo />
-            <Menu />
-           
+            <Menu />  
+            <Login />
         </CabecalhoStyled>
     )
 }
