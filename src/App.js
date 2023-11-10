@@ -10,7 +10,9 @@ const AppStyled = styled.div`
 
 function App() {
   return (
-    <Cabecalho />
+    <AppStyled>
+      <Cabecalho />
+    </AppStyled>
   );
 }
 export default App;
