@@ -1,4 +1,4 @@
-import Cabecalho from './Componentes/Cabeçalho';
+import Cabecalho from './Componentes/Cabecalho';
 import styled from 'styled-components';
 
 const AppStyled = styled.div`

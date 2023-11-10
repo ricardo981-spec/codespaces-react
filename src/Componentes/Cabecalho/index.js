@@ -1,7 +1,8 @@
 
 import styled from "styled-components"
-import Logotipo from "../Logotipo";
+import Logotipo from "./Logotipo";
 import Menu from "./Menu";
+import Login from "./Login"
 
 const CabecalhoStyled = styled.header`
     display: flex;
