@@ -20,6 +20,6 @@ const Pesquisa = styled.section`
 function Pesquisa(){
     return(
         Pesquisa
-       <h1></h1>
     )
+    
 }
