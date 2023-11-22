@@ -1,4 +1,4 @@
-import Login from "/home/codespace/codespaces-react/src/Imagem/Login.jpg"
+import Login from "/home/codespace/codespaces-react-2/src/Imagem/Login.jpg"
 import styled from "styled-components"
 
 const LogotipoStyle = styled.div`

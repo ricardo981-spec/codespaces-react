@@ -1,4 +1,3 @@
-
 import styled from "styled-components"
 import Logotipo from "./Logotipo";
 import Menu from "./Menu";

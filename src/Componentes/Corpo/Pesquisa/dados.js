@@ -1,5 +1,5 @@
-import Servicos from "C:\Users\Aluno\Documents\Ricardo C.A\codespaces-react-1\src\Imagem\Serviço1.png"
-import peça from "C:\Users\Aluno\Documents\Ricardo C.A\codespaces-react-1\src\Imagem\Peças.jpg"
+import Servicos from "/home/codespace/codespaces-react-2/src/Imagem/Servicos.png"
+import peça from "/home/codespace/codespaces-react-2/src/Imagem/Peças.jpg"
 
 export const Servicos = [
     {
