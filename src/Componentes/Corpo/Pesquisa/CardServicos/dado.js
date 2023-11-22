@@ -1,0 +1,21 @@
+import imagem_curso from '../../../../Imagem/Servicos.png'
+export const cursos = [
+    {
+        id:1,
+        titulo:"Manuntenção de omputadores",
+        horas:"10h - 18h",
+        imagem:imagem_curso
+    },
+    {
+        id:2,
+        titulo:"Manuntenção de Celulares",
+        horas:"10h - 18h",
+        imagem:imagem_curso
+    },
+    {
+        id:3,
+        titulo:"Compra e Vendas de Peças",
+        horas:"10h - 18h",
+        imagem:imagem_curso
+    },
+]

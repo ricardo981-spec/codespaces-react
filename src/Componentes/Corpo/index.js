@@ -5,7 +5,7 @@ import CarouselBootstrap from "./Carrossel";
 const CorpoStyled = styled.header`
     display: flex;
     width: 100vw;
-    height: 20vh;
+    height: 80vh;
     background-color: gray;
 `
 
@@ -14,7 +14,6 @@ function Corpo() {
     return (
         <CorpoStyled>
            <CarouselBootstrap />
-           <Principal />
         </CorpoStyled>
     )
 }
