@@ -12,6 +12,7 @@ const CabecalhoStyled = styled.header`
 
 function Cabecalho() {
 
+
     return (
         <CabecalhoStyled>
             <Logotipo />
