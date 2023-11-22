@@ -1,6 +1,6 @@
 import {Carousel} from "react-bootstrap";
 import styled from "styled-components";
-import Logo from "/home/codespace/codespaces-react-2/src/Imagem/Login.jpg"
+import Logo from "../../../Imagem/Logo.png";
 
 
 const CarouselStyled = styled(Carousel)`
@@ -16,9 +16,13 @@ const CarouselStyled = styled(Carousel)`
 function CarouselBootstrap(){
     return
         <CarouselStyled>
-                    <Carousel.item>
-                        <img src = {/home/codespace/codespaces-react-2/src/Imagem/Logo.png} alt=""/>
-                    </Carousel.item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100" 
+                            src={Logo} 
+                            alt=""
+                        />
+                    </Carousel.Item>
         </CarouselStyled>
 }
 

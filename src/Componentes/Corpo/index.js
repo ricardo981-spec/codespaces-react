@@ -1,22 +1,19 @@
-import Navegacao from "styled-components"
-import Carrossel from "./Carrossel";
-import Pesquisa from ".Pesquisa";
+import styled from "styled-components"
 import Principal from "./Principal";
+import CarouselBootstrap from "./Carrossel";
 
 const CorpoStyled = styled.header`
     display: flex;
     width: 100vw;
     height: 20vh;
-    background-color: blueviolet;
+    background-color: gray;
 `
 
 function Corpo() {
 
     return (
         <CorpoStyled>
-           <Carrossel />
-           <Navegacao />
-           <Pesquisa />
+           <CarouselBootstrap />
            <Principal />
         </CorpoStyled>
     )

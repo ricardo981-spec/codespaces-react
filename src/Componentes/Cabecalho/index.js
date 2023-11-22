@@ -7,7 +7,7 @@ const CabecalhoStyled = styled.header`
     display: flex;
     width: 100vw;
     height: 20vh;
-    background-color: green;
+    background-color: green
 `
 
 function Cabecalho() {
