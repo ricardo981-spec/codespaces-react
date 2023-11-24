@@ -2,7 +2,7 @@ import imagem_servicos from '../../../../Imagem/Servicos.png'
 export const servicos = [
     {
         id:1,
-        titulo:"Manuntenção de omputadores",
+        titulo:"Manuntenção de Computadores",
         horas:"10h - 18h",
         imagem:imagem_servicos
     },
