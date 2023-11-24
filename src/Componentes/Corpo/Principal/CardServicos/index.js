@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardServicos = styled.div`
+const CardServicoStyled = styled.div`
     display: flex;
     align-items: center;
     width: 80%;
@@ -17,7 +17,7 @@ const CardServicos = styled.div`
     }
 `
 
-function CardServicos({imagem,titulo,horas,}){
+function CardServicos({imagem,titulo,horas}){
     return(
 
         <CardServicoStyled>
