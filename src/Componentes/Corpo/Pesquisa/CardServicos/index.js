@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { useState } from 'react';
-import { cursos } from './dados';
+import { servicos } from './dados';
 import InputPesquisa from '../InputPesquisa';
-import CardCurso from '../CardCurso';
+import CardServicos from '../CardServicos';
 import { Container } from 'react-bootstrap';
 
 const ConteinerPesquisa = styled.section`
