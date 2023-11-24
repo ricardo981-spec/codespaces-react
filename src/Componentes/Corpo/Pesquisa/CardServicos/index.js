@@ -21,8 +21,8 @@ const ConteinerPesquisa = styled.section`
 
 const Titulo = styled.h1`
 
-    color : ${props => props.cor || '#000000'};
-    font-size: ${props => props.tamanhoFonte || '20px'};
+    color : ${props = props.cor || '#000000'};
+    font-size: ${props = props.tamanhoFonte || '20px'};
     font-weight:bold;
 
 `
@@ -41,15 +41,19 @@ function PesquisaServicos(){
             placeholder='Digite o Servico Necessario:'
             onChange={evento => {
                 const textoDigitado = evento.target.value;
-                const resultadoBusca = servicos.filer(cursos => servicos.titulo.include(textoDigitado))
+                const resultadoBusca = servicos.filer(servicos => servicos.titulo.include(textoDigitado))
                 setservicosEncontrados(resultadoBusca)
             }}
-
+            {
             servicosEncontrados.map(servicos =>(
                 <CardServicos
-
-            )
-        </ContainerPesquisa>
+                titulo = {servicos.titulo}
+                horas = {servicos.horas}
+                imagem = {servicos.imagem}
+                />
+                ))                
+            }
+        </ConteinerPesquisa>
     )
-
 }
+export default PesquisaServicos

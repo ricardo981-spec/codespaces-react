@@ -1,6 +1,7 @@
 import { Carousel } from "react-bootstrap";
 import styled from "styled-components";
-import Logo from "../../../Imagem/Logo.png";
+import Servico from "../../../Imagem/Servicos.png";
+import Pecas from "../../../Imagem/Pecas.png";
 import React from 'react';
 
 const CarouselStyled = styled(Carousel)`
@@ -19,15 +20,23 @@ function CarouselBootstrap() {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src={Logo}
+                src={Servico}
                 alt=""
             />
             <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Manuntenção de Computadores</h3>
             </Carousel.Caption>
         </Carousel.Item>
-
+        <Carousel.Item>
+            <img
+                className="d-block w-100"
+                src={Pecas}
+                alt=""
+             />
+        <Carousel.Caption>
+          <h3>Compra e Vendas de Peças</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
     </CarouselStyled>
     )
 }

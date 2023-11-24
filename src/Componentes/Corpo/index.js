@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import Principal from "./Principal";
 import CarouselBootstrap from "./Carrossel";
 
 const CorpoStyled = styled.header`
