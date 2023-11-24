@@ -24,7 +24,7 @@ function CardServicos({imagem,titulo,horas}){
             <img src={imagem} alt=""/>
             <infoServicos>
                 <h2>{titulo}</h2>
-                <h3><b>Hórarios Disponiveis: {horas}</b></h3>
+                <h3><b>Hórarios Disponiveis:{horas}</b></h3>
             </infoServicos>
         </CardServicoStyled>
     )

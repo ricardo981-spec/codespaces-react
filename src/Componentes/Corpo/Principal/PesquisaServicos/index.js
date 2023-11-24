@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import {useState} from 'react';
-import {servicos} from './dados';
+import useState from 'react';
+import servicos from './dados';
 import InputPesquisa from '../InputPesquisa';
 import CardServicos from '../CardServicos';
 
@@ -20,8 +20,8 @@ const ConteinerPesquisa = styled.section`
 
 const Titulo = styled.h1`
 
-    color : ${props = props.cor || '#000000'};
-    font-size: ${props = props.tamanhoFonte || '20px'};
+    color :#000000;
+    font-size:20px;
     font-weight:bold;
 
 `
@@ -45,14 +45,13 @@ function PesquisaServicos(){
                 }}
             />
             {
-                servicosEncontrados.map(servico =>(
-                    
-                    <CardServicos
-                    titulo = {servico.titulo}
-                    horas = {servico.horas}
-                    imagem = {servico.imagem}
+                servicosEncontrados.map(servico =>(                    
+                    <CardServicos                        
+                        titulo = {servico.titulo}
+                        horas = {servico.horas}
+                        imagem = {servico.imagem}                  
                     />
-                    ))                
+                ))                
             }
         </ConteinerPesquisa>
     )

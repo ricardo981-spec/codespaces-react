@@ -1,6 +1,6 @@
 import Cabecalho from '../src/Componentes/Cabecalho'
 import styled from 'styled-components';
-import Corpo from './Componentes/Corpo';
+import Corpo from './Componentes/Corpo/Corpo.js';
 
 const AppStyled = styled.div`
   display: flex;
