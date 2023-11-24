@@ -4,8 +4,8 @@ const CardServicoStyled = styled.div`
     display: flex;
     align-items: center;
     width: 80%;
-    height: clamp(200px,200px + 1vh, 15vh); 
-    border-radius:10px;
+    height: clamp(100px,200px + 1vh, 15vh); 
+    border-radius:20px;
     background-color:darkgrey;
     gap:1vw;
     box-shadow: 

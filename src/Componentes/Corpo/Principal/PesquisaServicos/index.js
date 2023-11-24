@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import useState from 'react';
-import servicos from '../PesquisaServicos'
+import servicos from '../PesquisaServicos/'
 import InputPesquisa from '../InputPesquisa';
 import CardServicos from '../CardServicos';
 
@@ -32,7 +32,7 @@ function PesquisaServicos(){
 
     return(
         <ConteinerPesquisa>
-            <Titulo cor={"#0a3792"} tamanhoFonte={"50px"}>
+            <Titulo cor={"#0a3792"} tamanhoFonte={"20px"}>
             Pesquisa Servicos de Interesse
             </Titulo>
 
