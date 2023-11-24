@@ -17,7 +17,7 @@ function Corpo() {
         <CorpoStyled>
            <CarouselBootstrap />
            <CardServicos />
-           <PesquisaServicos />
+           {/* <PesquisaServicos /> */}
            <InputPesquisa />
         </CorpoStyled>
     )

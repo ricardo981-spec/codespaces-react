@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import useState from 'react';
-import servicos from './dados';
+import servicos from '../PesquisaServicos'
 import InputPesquisa from '../InputPesquisa';
 import CardServicos from '../CardServicos';
 
